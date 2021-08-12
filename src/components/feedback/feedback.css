@@ -1,0 +1,47 @@
+.feedback-icon {
+    font-size: 80px;
+    box-shadow: rgb(0 0 0 / 50%) 0 5px 50px;
+    background-color: #7089c9;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+
+.feedback:hover {
+    cursor: pointer;
+}
+
+
+.feedback {
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 30px ;
+    left: 50px;
+    z-index: 1000;
+}
+
+p {
+    display: block;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 9px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: text;
+}
+
+.centainer__feedback {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    bottom: 25px;
+    width: 265px;
+    max-height: 400px;
+    padding: 5px 15px 5px 22px;
+    overflow: auto;
+    position: fixed;
+    box-sizing: border-box;
+    left: 15px;
+    box-shadow: rgb(0 0 0 / 50%) 0 5px 50px;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+    box-sizing: border-box;
+}
+
+.removedMgPd{
+    margin: 0;
+    padding: 0;
+}
+
+.container__demomapapi, .container__hotline {
+    margin-top: 105px;
+}
+
+#standard-basic {
+    margin-top: 6px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.hoverclass:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

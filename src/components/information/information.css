@@ -1,0 +1,45 @@
+.instruction {
+    margin: 0 20px 0 40px    ;
+}
+
+.tutorial {
+    background-color: #d4edda;
+    padding: 1px 20px 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #405741;
+    display: block;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-close {
+    color: transparent;
+}
+
+.start-begin {
+    margin-top: 7px;
+    
+}
+
+.submit {
+    margin-top: 20px;
+    
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+
+h3 {
+    margin: 14px 0 0 9px;
+}
+
+p {
+    line-height: 1.7rem;
+}
