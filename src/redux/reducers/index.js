@@ -1,8 +1,8 @@
-// import { combineReducers } from 'redux'
-// import AddressReducer from './Addressreducers'
+import { combineReducers } from 'redux'
+import MapView from './MapView'
 
-//  const rootReduces = combineReducers({
-//     Address: AddressReducer, 
-// })
+ const rootReducer = combineReducers({
+    changeMap: MapView, 
+})
 
-// export default rootReduces
+export default rootReducer

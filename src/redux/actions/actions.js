@@ -1,12 +1,17 @@
-import { ActionTypeEnum } from "../../enum"
+import { OptionVehicle, changeLocation } from "../../enum"
 
-export class Actions {
-    
-    static setAddress = (address) => {
-        return {
-            type: ActionTypeEnum.changeAddress,
-            payload: address,
-        }
+
+export const changeVehicle = (vehicle) => {
+    return {
+        type: OptionVehicle.changeVehicle,
+        payload: vehicle,
     }
-
 }
+
+export const changeLoca = (origin,destination,vehicle) => {
+    return {
+        type: changeLocation.changeLocation,
+        payload: {origin,destination,vehicle},
+    }
+}
+

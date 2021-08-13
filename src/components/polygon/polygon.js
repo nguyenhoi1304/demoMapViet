@@ -19,7 +19,7 @@ function polygon(props, ref) {
           display: show ? "block" : "none"
         }}
       >
-        Đã vẽ golygon
+        Đã vẽ polygon
       </div>
     </div>
   );

@@ -1,0 +1,11 @@
+.link {
+    word-break: break-word;
+    color: #00b4fd;
+}
+.link:hover {
+    box-shadow: 0 1px #00b4fd;
+}
+
+.classhover:hover {
+    color: #ccc;
+}
